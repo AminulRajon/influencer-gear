@@ -1,0 +1,148 @@
+/*-----------------------
+ Header Design
+ ------------------------*/
+body{
+    background-color: rgb(245, 245 , 244.5);
+}
+ header{
+     display: flex;
+     justify-content: space-between;
+     padding: 3% 10%;
+ }
+ nav ul a{
+     padding: 10px;
+     text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     color: #3A3A3A;
+ }
+ .site-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;    
+    font-feature-settings: 'liga' off;
+    color: #3A3A3A;
+ }
+ /* -------------------
+ Main Design
+ ---------------------- */
+/* Heading Part  */
+.heading-part{
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    font-family: Poppins;
+    font-weight: 900;
+    color: #3A3A3A;
+    font-size: 62px;
+    line-height: 70px;
+}
+.header-left p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-right{
+    background-image: url(images/Circle\ design.svg);
+    background-size: 100% 100%;
+}
+.header-right img{
+    width: 100%;
+    }
+.link-btn{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 2% 5%;
+    border-radius: 50px;
+    border: none;
+}
+
+/* Logo Part */
+.logo-part{
+    padding: 5% 10%;
+}
+.logos{
+    border-top: 1px solid #C0CCDA99;
+    border-bottom: 1px solid #C0CCDA99;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+/* Product Part  */
+.product-part{
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.section-heading{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5%;
+    background-color: #fff;
+    margin-bottom: 5%;
+}
+.products img{
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+}
+.rating-star{
+    color: #FB8200;
+    font-size: 16px;
+}
+.product-name{   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+.price{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    padding: 0 0 5% 0;
+}
+.ratings{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px
+}
+.products p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0;
+    color: #787885;
+}
