@@ -209,8 +209,71 @@ footer h3{
 /*-------------------------------
  Resposive Media Query
 ---------------------------------- */
+/* Tab */
+@media only screen and (max-width: 992px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    .heading-part{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-right img:hover{
+        transform: rotate(360deg);
+        transition: 5s;
+    }
+    .header-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    }
+    .header-left p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    }
+    .logos{
+        border-top: 1px solid #C0CCDA99;
+        border-bottom: 1px solid #C0CCDA99;
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .logos img{
+        padding-top: 15%;
+        justify-items: center;
+    }
+    .product-part{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 0 40px;
+        align-items: center;
+        justify-items: center;
+    }
+}
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
     header{
         display: flex;
         align-items: center;
@@ -257,9 +320,14 @@ footer h3{
         padding: 2%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .logos img{
+        padding-top: 15%;
+        justify-items: center;
     }
     .product-part{
-        padding: 0 15%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
