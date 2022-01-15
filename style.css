@@ -258,4 +258,11 @@ footer h3{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
+    .product-part{
+        padding: 0 15%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-items: center;
+    }
 }
